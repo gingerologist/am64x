@@ -335,11 +335,305 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MFR_NAME",
+          "name": "ALT_MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MFR_PART_NUMBER",
+          "name": "ALT_MFR_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE ALTERNATE_MFR_NAME",
+          "name": "AUTOMOTIVE ALTERNATE_MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE ALTERNATE_MFR_PART_NUMBER",
+          "name": "AUTOMOTIVE ALTERNATE_MFR_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BOM NOTE",
+          "name": "BOM NOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CGC PART NO",
+          "name": "CGC PART NO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CHKD/DATE",
+          "name": "CHKD/DATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPLIANCE",
+          "name": "COMPLIANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT NAME",
+          "name": "COMPONENT NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CRTD /DATE",
+          "name": "CRTD /DATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUSTOMS_HS_CODE",
+          "name": "CUSTOMS_HS_CODE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUSTOM_DUTY",
+          "name": "CUSTOM_DUTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUST_PART_NUMBER",
+          "name": "CUST_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET",
+          "name": "DATASHEET",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DISTRIBUTOR_NAME",
+          "name": "DISTRIBUTOR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DISTRIBUTOR_PART_NUMBER",
+          "name": "DISTRIBUTOR_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT PATH",
+          "name": "FOOTPRINT PATH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT REF",
+          "name": "FOOTPRINT REF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IBISSP_MODLES",
+          "name": "IBISSP_MODLES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIBRARY PATH",
+          "name": "LIBRARY PATH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIBRARY REF",
+          "name": "LIBRARY REF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LPD_PART_NUMBER",
+          "name": "LPD_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MECHANICAL 3D STEP FILE",
+          "name": "MECHANICAL 3D STEP FILE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_PART_NUMBER",
+          "name": "MFR_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MISTRAL PART NO",
+          "name": "MISTRAL PART NO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OCT OPTION",
+          "name": "OCT OPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMP RANGE",
+          "name": "OPERATING TEMP RANGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NO (MANUFACTURER)",
+          "name": "PART NO (MANUFACTURER)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_TYPE",
+          "name": "PART_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PB-FREE",
+          "name": "PB-FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PCB FOOTPRINT",
+          "name": "PCB FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROJECT",
+          "name": "PROJECT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SIGNAL_MODEL",
+          "name": "SIGNAL_MODEL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STORAGE TEMP RANGE",
+          "name": "STORAGE TEMP RANGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE",
+          "name": "TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEXT",
+          "name": "TEXT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEXT1",
+          "name": "TEXT1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEXT2",
+          "name": "TEXT2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WATTAGE",
+          "name": "WATTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WEIGHT",
+          "name": "WEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
