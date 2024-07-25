@@ -1,0 +1,1267 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d798ab61-bfb1-4e3e-a919-55e6a99857b1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 190.5 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "020a263b-7f77-4480-91e5-967eb316b846")
+		(property "Sheetname" "temp_id_detect"
+			(at 190.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "15.kicad_sch"
+			(at 190.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03bb078c-123e-4bb3-82ef-da551d85eb40")
+		(property "Sheetname" "3V3_5V"
+			(at 139.7 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "37.kicad_sch"
+			(at 139.7 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c0f96e8-8f11-48b4-8d68-aebec5ff3a3b")
+		(property "Sheetname" "soc_power_decaps"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10.kicad_sch"
+			(at 63.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14b34273-87c2-49e0-9b4e-0e38c3713aca")
+		(property "Sheetname" "01"
+			(at 38.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01.kicad_sch"
+			(at 38.1 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c5f2ae1-4e42-42a8-8242-61cead4425e4")
+		(property "Sheetname" "icssg_rgmii_2_phy"
+			(at 38.1 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "17.kicad_sch"
+			(at 38.1 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20b0ea2c-7e2d-4a33-835b-ff22847a9077")
+		(property "Sheetname" "eth_led_adc"
+			(at 215.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32.kicad_sch"
+			(at 215.9 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "397b3b10-a226-4c89-8489-ecb1197e2a45")
+		(property "Sheetname" "pcie"
+			(at 165.1 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "30.kicad_sch"
+			(at 165.1 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "455fef30-a1b2-4c9f-bc04-3074a9d7744e")
+		(property "Sheetname" "prg0_prg1"
+			(at 88.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "27.kicad_sch"
+			(at 88.9 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d133f68-a4cb-42f9-921d-919079c7d53f")
+		(property "Sheetname" "soc_power_vss"
+			(at 88.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11.kicad_sch"
+			(at 88.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d9ef161-a787-4659-a187-66891a41dc2e")
+		(property "Sheetname" "jtag"
+			(at 190.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "23.kicad_sch"
+			(at 190.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54318cda-3295-4d15-89e5-1d460ae721c9")
+		(property "Sheetname" "soc_power"
+			(at 38.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "09.kicad_sch"
+			(at 38.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59a811ba-7c25-40e5-8e3d-f0b90cc619e9")
+		(property "Sheetname" "usb2"
+			(at 38.1 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "25.kicad_sch"
+			(at 38.1 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71cb7a02-f8ae-4a9c-bca9-a2732efb0ffc")
+		(property "Sheetname" "boot_mode"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20.kicad_sch"
+			(at 114.3 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73baef7b-4850-4600-a82b-6a3acae3c9be")
+		(property "Sheetname" "mmc"
+			(at 139.7 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "13.kicad_sch"
+			(at 139.7 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79c32385-7466-4806-94f6-a502428123d7")
+		(property "Sheetname" "eth_pcie_clock"
+			(at 190.5 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "31.kicad_sch"
+			(at 190.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cc42d67-d657-41c5-be9c-3cd03781513c")
+		(property "Sheetname" "main_power"
+			(at 114.3 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "36.kicad_sch"
+			(at 114.3 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92a6848d-5904-4452-ac0e-974ad1ec63a0")
+		(property "Sheetname" "ospi"
+			(at 165.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "14.kicad_sch"
+			(at 165.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "937d601c-ff69-461d-b312-d5b716596a8a")
+		(property "Sheetname" "peripheral_power_supply"
+			(at 190.5 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "39.kicad_sch"
+			(at 190.5 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c0e34e8-dae3-4159-a516-1e5bc0ad701c")
+		(property "Sheetname" "ddr"
+			(at 114.3 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12.kicad_sch"
+			(at 114.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1e381d3-626e-457b-bee6-faf2e9e95583")
+		(property "Sheetname" "reset"
+			(at 88.9 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "35.kicad_sch"
+			(at 88.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a20f76c6-e93d-4482-90a2-08a0bcf46ff2")
+		(property "Sheetname" "gpmc"
+			(at 114.3 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "28.kicad_sch"
+			(at 114.3 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a28ed050-448c-4a41-a879-6b9102bbafdb")
+		(property "Sheetname" "ft4232"
+			(at 63.5 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "26.kicad_sch"
+			(at 63.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4f74500-f38b-4e95-bc22-0db78c02d164")
+		(property "Sheetname" "current_mon"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "21.kicad_sch"
+			(at 139.7 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7b7e6c4-5c27-4975-82b6-565b6c86c8e0")
+		(property "Sheetname" "icssg_rgmii_1_phy"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "18.kicad_sch"
+			(at 63.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 63.5)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a85b1848-fd6c-48c9-a9c0-779d97ba0ae6")
+		(property "Sheetname" "cpsw3g_rgmii_phy"
+			(at 215.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16.kicad_sch"
+			(at 215.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 114.3)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c42cc7db-31d5-4c7d-a90e-ddc4fbfea309")
+		(property "Sheetname" "display_spi_can"
+			(at 139.7 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "29.kicad_sch"
+			(at 139.7 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c551427e-d111-4b1b-ab52-82371f1f6947")
+		(property "Sheetname" "test_auto"
+			(at 88.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "19.kicad_sch"
+			(at 88.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5e0d2be-8651-4134-bb8b-8f535100788a")
+		(property "Sheetname" "mcu_general"
+			(at 63.5 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "34.kicad_sch"
+			(at 63.5 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9416ae5-853a-4adb-8ec6-8b79374967eb")
+		(property "Sheetname" "mechanical"
+			(at 215.9 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "40.kicad_sch"
+			(at 215.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e59dd99e-a2d9-4062-a902-515cfe66f21d")
+		(property "Sheetname" "mipi"
+			(at 215.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24.kicad_sch"
+			(at 215.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb9ed480-1210-4542-9b37-37b261c4d44a")
+		(property "Sheetname" "io_expander"
+			(at 38.1 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "33.kicad_sch"
+			(at 38.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 139.7)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa992559-001d-4618-b8eb-75ba307ff132")
+		(property "Sheetname" "soc_power_supply"
+			(at 165.1 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "38.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 88.9)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb62d151-b685-4318-b774-6a8e36543d86")
+		(property "Sheetname" "xds110"
+			(at 165.1 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "22.kicad_sch"
+			(at 165.1 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proc101d"
+				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

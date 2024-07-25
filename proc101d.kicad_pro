@@ -1,0 +1,524 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "proc101d.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "d798ab61-bfb1-4e3e-a919-55e6a99857b1",
+      "Root"
+    ],
+    [
+      "14b34273-87c2-49e0-9b4e-0e38c3713aca",
+      "01"
+    ],
+    [
+      "54318cda-3295-4d15-89e5-1d460ae721c9",
+      "soc_power"
+    ],
+    [
+      "0c0f96e8-8f11-48b4-8d68-aebec5ff3a3b",
+      "soc_power_decaps"
+    ],
+    [
+      "4d133f68-a4cb-42f9-921d-919079c7d53f",
+      "soc_power_vss"
+    ],
+    [
+      "9c0e34e8-dae3-4159-a516-1e5bc0ad701c",
+      "ddr"
+    ],
+    [
+      "73baef7b-4850-4600-a82b-6a3acae3c9be",
+      "mmc"
+    ],
+    [
+      "92a6848d-5904-4452-ac0e-974ad1ec63a0",
+      "ospi"
+    ],
+    [
+      "020a263b-7f77-4480-91e5-967eb316b846",
+      "temp_id_detect"
+    ],
+    [
+      "a85b1848-fd6c-48c9-a9c0-779d97ba0ae6",
+      "cpsw3g_rgmii_phy"
+    ],
+    [
+      "1c5f2ae1-4e42-42a8-8242-61cead4425e4",
+      "icssg_rgmii_2_phy"
+    ],
+    [
+      "a7b7e6c4-5c27-4975-82b6-565b6c86c8e0",
+      "icssg_rgmii_1_phy"
+    ],
+    [
+      "c551427e-d111-4b1b-ab52-82371f1f6947",
+      "test_auto"
+    ],
+    [
+      "71cb7a02-f8ae-4a9c-bca9-a2732efb0ffc",
+      "boot_mode"
+    ],
+    [
+      "a4f74500-f38b-4e95-bc22-0db78c02d164",
+      "current_mon"
+    ],
+    [
+      "fb62d151-b685-4318-b774-6a8e36543d86",
+      "xds110"
+    ],
+    [
+      "4d9ef161-a787-4659-a187-66891a41dc2e",
+      "jtag"
+    ],
+    [
+      "e59dd99e-a2d9-4062-a902-515cfe66f21d",
+      "mipi"
+    ],
+    [
+      "59a811ba-7c25-40e5-8e3d-f0b90cc619e9",
+      "usb2"
+    ],
+    [
+      "a28ed050-448c-4a41-a879-6b9102bbafdb",
+      "ft4232"
+    ],
+    [
+      "455fef30-a1b2-4c9f-bc04-3074a9d7744e",
+      "prg0_prg1"
+    ],
+    [
+      "a20f76c6-e93d-4482-90a2-08a0bcf46ff2",
+      "gpmc"
+    ],
+    [
+      "c42cc7db-31d5-4c7d-a90e-ddc4fbfea309",
+      "display_spi_can"
+    ],
+    [
+      "397b3b10-a226-4c89-8489-ecb1197e2a45",
+      "pcie"
+    ],
+    [
+      "79c32385-7466-4806-94f6-a502428123d7",
+      "eth_pcie_clock"
+    ],
+    [
+      "20b0ea2c-7e2d-4a33-835b-ff22847a9077",
+      "eth_led_adc"
+    ],
+    [
+      "eb9ed480-1210-4542-9b37-37b261c4d44a",
+      "io_expander"
+    ],
+    [
+      "c5e0d2be-8651-4134-bb8b-8f535100788a",
+      "mcu_general"
+    ],
+    [
+      "a1e381d3-626e-457b-bee6-faf2e9e95583",
+      "reset"
+    ],
+    [
+      "8cc42d67-d657-41c5-be9c-3cd03781513c",
+      "main_power"
+    ],
+    [
+      "03bb078c-123e-4bb3-82ef-da551d85eb40",
+      "3V3_5V"
+    ],
+    [
+      "fa992559-001d-4618-b8eb-75ba307ff132",
+      "soc_power_supply"
+    ],
+    [
+      "937d601c-ff69-461d-b312-d5b716596a8a",
+      "peripheral_power_supply"
+    ],
+    [
+      "c9416ae5-853a-4adb-8ec6-8b79374967eb",
+      "mechanical"
+    ]
+  ],
+  "text_variables": {}
+}
