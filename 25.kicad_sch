@@ -1592,12 +1592,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}MIS~{C}REGULATOR~{S}TPS2051BDBVR.PDF"
+				(at -259.08 -284.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1651,16 +1652,6 @@
 				)
 			)
 			(property "CRTD /DATE" "VASANTHA/190614"
-				(at -259.08 -284.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}MIS~{C}REGULATOR~{S}TPS2051BDBVR.PDF"
 				(at -259.08 -284.48 0)
 				(effects
 					(font
@@ -2069,12 +2060,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}AM64-SoC_SVB.PDF"
+				(at -452.12 -345.44 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2248,16 +2240,6 @@
 				)
 			)
 			(property "TEMPERATURE" "NA"
-				(at -452.12 -345.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}AM64-SoC_SVB.PDF"
 				(at -452.12 -345.44 0)
 				(effects
 					(font

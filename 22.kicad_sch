@@ -1070,12 +1070,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
+				(at -353.06 -223.52 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1149,16 +1150,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/220817"
-				(at -353.06 -223.52 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
 				(at -353.06 -223.52 0)
 				(effects
 					(font
@@ -3884,12 +3875,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}MIS~{C}REGULATOR~{S}TPS796XX.PDF"
+				(at -246.38 -342.9 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3963,16 +3955,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MAZHAR/280809"
-				(at -246.38 -342.9 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}MIS~{C}REGULATOR~{S}TPS796XX.PDF"
 				(at -246.38 -342.9 0)
 				(effects
 					(font
@@ -4977,12 +4959,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}LM4040B25I.PDF"
+				(at -464.82 -93.98 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5056,16 +5039,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/230817"
-				(at -464.82 -93.98 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}LM4040B25I.PDF"
 				(at -464.82 -93.98 0)
 				(effects
 					(font
@@ -7171,12 +7144,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
+				(at -353.06 -223.52 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7250,16 +7224,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/220817"
-				(at -353.06 -223.52 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
 				(at -353.06 -223.52 0)
 				(effects
 					(font
@@ -9806,12 +9770,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
+				(at -353.06 -223.52 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -9885,16 +9850,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/220817"
-				(at -353.06 -223.52 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}TM4C1294NCPD.PDF"
 				(at -353.06 -223.52 0)
 				(effects
 					(font

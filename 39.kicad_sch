@@ -2774,12 +2774,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV707X.PDF"
+				(at -360.68 -83.82 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2873,16 +2874,6 @@
 				)
 			)
 			(property "CRTD /DATE" "ALVY/160420"
-				(at -360.68 -83.82 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV707X.PDF"
 				(at -360.68 -83.82 0)
 				(effects
 					(font
@@ -3197,12 +3188,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS51206.PDF"
+				(at -363.22 -327.66 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3286,16 +3278,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/220917"
-				(at -363.22 -327.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS51206.PDF"
 				(at -363.22 -327.66 0)
 				(effects
 					(font
@@ -4256,12 +4238,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS735.PDF"
+				(at -111.76 -93.98 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4345,16 +4328,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/161117"
-				(at -111.76 -93.98 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS735.PDF"
 				(at -111.76 -93.98 0)
 				(effects
 					(font
@@ -5959,12 +5932,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV707X.PDF"
+				(at -360.68 -154.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6138,16 +6112,6 @@
 				)
 			)
 			(property "TEMPERATURE" "-40癈+125癈"
-				(at -360.68 -154.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV707X.PDF"
 				(at -360.68 -154.94 0)
 				(effects
 					(font

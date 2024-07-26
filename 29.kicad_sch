@@ -2337,12 +2337,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS2294.PDF"
+				(at -208.28 -167.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2506,16 +2507,6 @@
 				)
 			)
 			(property "TEMPERATURE" "-40癈+85癈"
-				(at -208.28 -167.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS2294.PDF"
 				(at -208.28 -167.64 0)
 				(effects
 					(font
@@ -2730,12 +2721,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}AM64-SoC_SVB.PDF"
+				(at -452.12 -345.44 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2909,16 +2901,6 @@
 				)
 			)
 			(property "TEMPERATURE" "NA"
-				(at -452.12 -345.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}MICROCONTROLLE~{R}AM64-SoC_SVB.PDF"
 				(at -452.12 -345.44 0)
 				(effects
 					(font

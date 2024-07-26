@@ -1226,12 +1226,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}PERIPHERA~{L}FT4232HX.PDF"
+				(at -271.78 -327.66 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1425,16 +1426,6 @@
 				)
 			)
 			(property "TEMPERATURE" "-40癈+85癈"
-				(at -271.78 -327.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}PERIPHERA~{L}FT4232HX.PDF"
 				(at -271.78 -327.66 0)
 				(effects
 					(font
@@ -3422,12 +3413,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS735.PDF"
+				(at -93.98 -233.68 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3501,16 +3493,6 @@
 				)
 			)
 			(property "CRTD /DATE" "NAVEED/011014"
-				(at -93.98 -233.68 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS735.PDF"
 				(at -93.98 -233.68 0)
 				(effects
 					(font

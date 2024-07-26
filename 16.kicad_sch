@@ -5975,12 +5975,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}BUSTRANSCEIVE~{R}DP83867I.PDF"
+				(at -203.2 -342.9 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6144,16 +6145,6 @@
 				)
 			)
 			(property "TEMPERATURE" "-40癈+85癈"
-				(at -203.2 -342.9 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}BUSTRANSCEIVE~{R}DP83867I.PDF"
 				(at -203.2 -342.9 0)
 				(effects
 					(font

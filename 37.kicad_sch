@@ -1434,12 +1434,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}LM5140QRWGXX.PDF"
+				(at -203.2 -312.42 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1543,16 +1544,6 @@
 				)
 			)
 			(property "CRTD /DATE" "MANIRAJA/041017"
-				(at -203.2 -312.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}LM5140QRWGXX.PDF"
 				(at -203.2 -312.42 0)
 				(effects
 					(font

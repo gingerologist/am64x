@@ -2852,12 +2852,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV755P.PDF"
+				(at -127 -175.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2931,16 +2932,6 @@
 				)
 			)
 			(property "CRTD /DATE" "ALVY/160620"
-				(at -127 -175.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TLV755P.PDF"
 				(at -127 -175.26 0)
 				(effects
 					(font
@@ -3731,12 +3722,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS62821-2-3.PDF"
+				(at -353.06 -322.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3900,16 +3892,6 @@
 				)
 			)
 			(property "TEMPERATURE" "-40癈+125癈"
-				(at -353.06 -322.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS62821-2-3.PDF"
 				(at -353.06 -322.58 0)
 				(effects
 					(font
@@ -4208,12 +4190,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS74601.PDF"
+				(at -124.46 -88.9 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4307,16 +4290,6 @@
 				)
 			)
 			(property "CRTD /DATE" "ALVY/060619"
-				(at -124.46 -88.9 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS74601.PDF"
 				(at -124.46 -88.9 0)
 				(effects
 					(font
@@ -4667,12 +4640,13 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS8208X.PDF"
+				(at -355.6 -218.44 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4756,16 +4730,6 @@
 				)
 			)
 			(property "CRTD /DATE" "ALVY/080420"
-				(at -355.6 -218.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}POWE~{R}TPS8208X.PDF"
 				(at -355.6 -218.44 0)
 				(effects
 					(font
