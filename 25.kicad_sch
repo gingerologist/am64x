@@ -12755,7 +12755,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 109.22) (xy 464.82 104.14)
+			(xy 464.82 109.22) (xy 464.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -13652,7 +13652,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 93.98) (xy 464.82 88.9)
+			(xy 464.82 95.25) (xy 464.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -15581,7 +15581,7 @@
 	)
 	(symbol
 		(lib_id "25-altium-import:root_0_mirrored_CAP_POL_Dup1")
-		(at 467.36 96.52 0)
+		(at 467.36 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15589,7 +15589,7 @@
 		(dnp no)
 		(uuid "08f07254-2e1b-46f3-b948-e5ad155fd8c3")
 		(property "Reference" "C143"
-			(at 454.66 101.6 0)
+			(at 454.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +15598,7 @@
 			)
 		)
 		(property "Value" "150uF_10V"
-			(at 452.12 104.14 0)
+			(at 452.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +15607,7 @@
 			)
 		)
 		(property "Footprint" "CAPT7343D_3-25"
-			(at 467.36 96.52 0)
+			(at 467.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 467.36 96.52 0)
+			(at 467.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15625,7 @@
 			)
 		)
 		(property "Description" "CAP TANTALUM 150uF 10V 10% ESR 0.9E D7343"
-			(at 467.36 96.52 0)
+			(at 467.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +15634,7 @@
 			)
 		)
 		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,7 +15644,7 @@
 			)
 		)
 		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15654,7 @@
 			)
 		)
 		(property "FOOTPRINT REF" "CAPT7343D_3-25"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,7 +15664,7 @@
 			)
 		)
 		(property "MECHANICAL 3D STEP FILE" "CAPT7343D_3-25"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15674,7 @@
 			)
 		)
 		(property "CUSTOM_DUTY" "15%"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15684,7 @@
 			)
 		)
 		(property "CUSTOMS_HS_CODE" "85322990"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,7 +15694,7 @@
 			)
 		)
 		(property "ROHS" ""
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15704,7 @@
 			)
 		)
 		(property "CHKD/DATE" "MANIRAJA/240118"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15714,7 @@
 			)
 		)
 		(property "CRTD /DATE" "MANIRAJA/240118"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +15724,7 @@
 			)
 		)
 		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}CAPACITOR~{S}AVX-TAJ-SER.PDF"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15734,7 @@
 			)
 		)
 		(property "TEMPERATURE" "-55癈+125癈"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15744,7 @@
 			)
 		)
 		(property "WEIGHT" "670mg"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,7 +15754,7 @@
 			)
 		)
 		(property "HEIGHT" "3.10MM"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +15764,7 @@
 			)
 		)
 		(property "DISTRIBUTOR_PART_NUMBER" "478-11241-1-ND"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +15774,7 @@
 			)
 		)
 		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15784,7 @@
 			)
 		)
 		(property "PACKAGE" "D7343"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +15794,7 @@
 			)
 		)
 		(property "WATTAGE" "NA"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15804,7 +15804,7 @@
 			)
 		)
 		(property "VOLTAGE" "10V"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15814,7 +15814,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +15824,7 @@
 			)
 		)
 		(property "PART_TYPE" "CAPACITOR~{S}TANTALUM"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15834,7 @@
 			)
 		)
 		(property "MFR_PART_NUMBER" "TAJD157K010TNJV"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +15844,7 @@
 			)
 		)
 		(property "MFR_NAME" "AVX CORPORATION"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +15854,7 @@
 			)
 		)
 		(property "PROJECT" "TI_MAXIE_CPB"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15864,7 +15864,7 @@
 			)
 		)
 		(property "MISTRAL PART NO" "120018010025-R"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,7 +15874,7 @@
 			)
 		)
 		(property "LIBRARY REF" "CAP_POL"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +15884,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" "CAPT7343D_3-25"
-			(at 5.08 386.08 0)
+			(at 5.08 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
