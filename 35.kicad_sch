@@ -413,108 +413,6 @@
 				)
 			)
 		)
-		(symbol "35-altium-import:VDDR_CORE_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VDDR_CORE"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VDDR_CORE'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDDR_CORE_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0) hide
-					(name "VDDR_CORE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "35-altium-import:VDD_CORE_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -865,722 +763,6 @@
 				)
 				(pin passive line
 					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "35-altium-import:root_0_MOSFET_IRLML6401TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TRANSISTOR MOSFET P-CHANNEL SOT23-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*TO_SOT23-123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_MOSFET_IRLML6401TR_1_0"
-				(polyline
-					(pts
-						(xy 0 -15.24) (xy 7.62 -15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -12.7) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -10.922) (xy 2.032 -10.922)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -12.7) (xy 1.27 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.112) (xy 2.54 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -14.224) (xy 3.81 -12.192)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -13.208) (xy 10.16 -13.208)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -11.43) (xy 3.81 -9.398)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -10.414) (xy 7.62 -10.414)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.636) (xy 3.81 -6.604)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -7.874) (xy 5.334 -7.874)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.874) (xy 7.62 -7.874)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -15.24) (xy 7.62 -10.414)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -6.604) (xy 10.16 -6.604)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 -7.874)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.144 -10.16) (xy 11.684 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -13.208) (xy 10.16 -10.414)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -9.144) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -6.604) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 15.24 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.414) (xy 6.35 -11.684) (xy 6.35 -9.144) (xy 7.62 -10.414) (xy 7.62 -10.414)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type color)
-						(color 0 0 255 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -8.89) (xy 8.89 -8.89) (xy 10.16 -10.16) (xy 11.43 -8.89) (xy 11.43 -8.89)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type color)
-						(color 0 0 255 1)
-					)
-				)
-				(bezier
-					(pts
-						(xy 2.54 -9.906) (xy 2.54 -12.5714) (xy 4.4732 -14.732) (xy 6.858 -14.732)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 6.858 -14.732) (xy 9.2427 -14.732) (xy 11.176 -12.5714) (xy 11.176 -9.906)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 6.858 -5.08) (xy 4.4732 -5.08) (xy 2.54 -7.2407) (xy 2.54 -9.906)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -13.208)
-					(radius 0.254)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type color)
-						(color 0 0 255 1)
-					)
-				)
-				(circle
-					(center 7.62 -6.604)
-					(radius 0.254)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type color)
-						(color 0 0 255 1)
-					)
-				)
-				(bezier
-					(pts
-						(xy 11.176 -9.906) (xy 11.176 -7.2407) (xy 9.2427 -5.08) (xy 6.858 -5.08)
-					)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 15.24 0)
-					(end 0 -20.32)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 7.62)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -15.24 0)
-					(length 7.62)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 7.62)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "35-altium-import:root_0_RESISTOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 6.34K 1/16W 1% 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*RES0402_0-5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_RESISTOR_1_0"
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 3.302 -6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -2.286) (xy 3.302 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.302 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -6.858) (xy 2.54 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -3.81) (xy 1.778 -5.334)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.762) (xy 1.778 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -10.16 90)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -4334,12 +3516,6 @@
 		(uuid "6d723fe9-c177-43d5-8d9f-03da27e629aa")
 	)
 	(junction
-		(at 35.56 317.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78dd09fb-8c8c-4b5b-81b6-1f102397f595")
-	)
-	(junction
 		(at 251.46 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4497,16 +3673,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 200.66) (xy 63.5 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0232f633-bafd-4f61-97e7-6199c7530e9e")
-	)
-	(wire
-		(pts
 			(xy 464.82 228.6) (xy 434.34 228.6)
 		)
 		(stroke
@@ -4574,16 +3740,6 @@
 			(type default)
 		)
 		(uuid "09972e66-8fb5-481a-a6ab-2a2d92f37379")
-	)
-	(wire
-		(pts
-			(xy 139.7 129.54) (xy 134.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e92ac1-085c-4a19-a79c-8365a9a19162")
 	)
 	(wire
 		(pts
@@ -4757,16 +3913,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 66.04 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20cf4f90-3958-4e6d-b8f1-1655fcd2899e")
-	)
-	(wire
-		(pts
 			(xy 200.66 55.88) (xy 200.66 71.12)
 		)
 		(stroke
@@ -4908,16 +4054,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 139.7 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35724e66-2299-48e5-a85d-2488daf02b52")
-	)
-	(wire
-		(pts
 			(xy 124.46 317.5) (xy 134.62 317.5)
 		)
 		(stroke
@@ -4975,16 +4111,6 @@
 			(type default)
 		)
 		(uuid "4744c70d-5a06-4dff-bb3c-eec00d3df7d2")
-	)
-	(wire
-		(pts
-			(xy 104.14 45.72) (xy 71.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48776b01-435b-4a59-8013-8fc745288a93")
 	)
 	(wire
 		(pts
@@ -5269,16 +4395,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 208.28) (xy 134.62 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76218ee4-f8bd-4b01-bee3-4bbd070edfb3")
-	)
-	(wire
-		(pts
 			(xy 264.16 325.12) (xy 287.02 325.12)
 		)
 		(stroke
@@ -5409,16 +4525,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 292.1) (xy 17.78 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a18602c-b589-4a62-bb90-0a917e5fa047")
-	)
-	(wire
-		(pts
 			(xy 464.82 238.76) (xy 434.34 238.76)
 		)
 		(stroke
@@ -5459,16 +4565,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 139.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b62890-5fb6-4be9-9644-e94c0c8c64b9")
-	)
-	(wire
-		(pts
 			(xy 195.58 325.12) (xy 195.58 320.04)
 		)
 		(stroke
@@ -5476,36 +4572,6 @@
 			(type default)
 		)
 		(uuid "93d331d7-fbb1-488d-9011-3d97acaff198")
-	)
-	(wire
-		(pts
-			(xy 139.7 53.34) (xy 134.62 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95653083-36fa-42a8-9b33-26611730c98a")
-	)
-	(wire
-		(pts
-			(xy 35.56 317.5) (xy 17.78 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960c7cdb-dc36-40d7-9836-ffba82ee20f6")
-	)
-	(wire
-		(pts
-			(xy 104.14 213.36) (xy 63.5 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ffd273-8a36-447a-9c5b-6fa4f8ce4495")
 	)
 	(wire
 		(pts
@@ -5576,16 +4642,6 @@
 			(type default)
 		)
 		(uuid "9fc4f5ca-1fdc-4ee0-97a3-ec733771b9cf")
-	)
-	(wire
-		(pts
-			(xy 17.78 317.5) (xy 17.78 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02258fb-ccc5-4d87-94b4-8ff155a31fdb")
 	)
 	(wire
 		(pts
@@ -5697,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "b4c9bc55-e2fc-4f1f-b32e-bdbb0e916499")
-	)
-	(wire
-		(pts
-			(xy 139.7 210.82) (xy 139.7 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fc9797-62a6-4582-9e56-689556fff313")
 	)
 	(wire
 		(pts
@@ -5939,16 +4985,6 @@
 			(type default)
 		)
 		(uuid "d3274cd4-0aad-4279-b991-b49ba0a02e40")
-	)
-	(wire
-		(pts
-			(xy 104.14 121.92) (xy 66.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5143637-aac0-4582-8a62-b66d181ecdba")
 	)
 	(wire
 		(pts
@@ -6224,16 +5260,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52327f3-58f4-48fb-8916-3dd53e946798")
-	)
-	(wire
-		(pts
 			(xy 109.22 309.88) (xy 109.22 307.34)
 		)
 		(stroke
@@ -6347,8 +5373,8 @@
 	)
 	(text_box "For 0.75: VDD_CORE < 0.715 assert PORz \nFor 0.85: VDD_CORE < 0.82 asserts PORz"
 		(exclude_from_sim no)
-		(at 189.484 343.916 0)
-		(size -70.104 -6.096)
+		(at 119.38 337.82 0)
+		(size 70.104 6.096)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -6585,17 +5611,6 @@
 		)
 		(uuid "6f63dd29-a738-4f1b-b0b1-c99d6232c082")
 	)
-	(text "R2"
-		(exclude_from_sim no)
-		(at 20.32 300.99 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-			(justify left bottom)
-		)
-		(uuid "73d513ed-b4bd-49f5-a0a5-306fbb701b6c")
-	)
 	(text "SoC WARM_RST"
 		(exclude_from_sim no)
 		(at 172.72 103.886 0)
@@ -6736,17 +5751,6 @@
 			(justify left bottom)
 		)
 		(uuid "145772dc-7552-4195-8743-0b3bdee7cdf1")
-	)
-	(label "Debounce_GPIO_SoC/MCU"
-		(at 66.04 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14f68492-cde3-402a-9770-dc118db8e4cd")
 	)
 	(label "GPIO_SoC/MCU"
 		(at 355.6 91.44 0)
@@ -6913,17 +5917,6 @@
 		)
 		(uuid "5f6c9f30-75fe-4dbf-bffb-b75a20b308d8")
 	)
-	(label "TEST_GPIO1"
-		(at 66.04 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ef3ba77-8ab9-466b-9549-7f05f01e5327")
-	)
 	(label "SUPERVISOR_DEBOUNCE_RSTn"
 		(at 233.68 40.64 0)
 		(fields_autoplaced yes)
@@ -7023,17 +6016,6 @@
 		)
 		(uuid "b770a5e6-bdb7-4be0-b0c5-fc95af59b528")
 	)
-	(label "Debounce_WARM_RST"
-		(at 68.58 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c44a3245-61d5-40ea-8505-bb3c0235bd15")
-	)
 	(label "SoC_WARM_RESETZ"
 		(at 469.9 58.42 0)
 		(fields_autoplaced yes)
@@ -7067,17 +6049,6 @@
 		)
 		(uuid "cf30d5ac-9ae5-4338-b187-1048821c36ca")
 	)
-	(label "TEST_WARMRESETn"
-		(at 68.58 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e378fea4-c600-427b-b0a9-f9d285c1d6f4")
-	)
 	(label "SUPERVISOR_DEBOUNCE_RSTn"
 		(at 360.68 132.08 0)
 		(fields_autoplaced yes)
@@ -7088,28 +6059,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6ddcccd-e08c-449e-b3d6-89dcd773e8ec")
-	)
-	(label "SUPERVISOR_DEBOUNCE_RSTn"
-		(at 68.58 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0575a0f-d23b-44de-bad3-a1012efc9bac")
-	)
-	(label "TEST_PORZn"
-		(at 76.2 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f06d1728-0711-4b2e-a0f3-ae5cdcc3403d")
 	)
 	(label "PORz"
 		(at 452.12 307.34 0)
@@ -7232,28 +6181,6 @@
 			)
 		)
 	)
-	(global_label "TEST_WARMRESETn"
-		(shape input)
-		(at 66.04 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "439430ec-4fbc-4235-9b06-adcaa26e8833")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.638 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VIN_MON_PORz_3V3_PG"
 		(shape input)
 		(at 464.82 218.44 0)
@@ -7276,28 +6203,6 @@
 			)
 		)
 	)
-	(global_label "TEST_GPIO1"
-		(shape input)
-		(at 63.5 200.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a71958d5-8022-48f4-ab8e-41ffdf621e82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5687 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_GPIO0_6"
 		(shape input)
 		(at 464.82 238.76 0)
@@ -7316,28 +6221,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEST_PORZn"
-		(shape input)
-		(at 71.12 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eefd0688-a944-4bea-a19d-a4d05f354fb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6445 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7501,341 +6384,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "#PWR01428")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:root_0_RESISTOR")
-		(at 15.24 294.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1399c795-a7b6-40b8-bdb8-87071f076076")
-		(property "Reference" "R282"
-			(at 17.78 291.963 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "6.34K_1%"
-			(at 17.78 311.697 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 15.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.34K 1/16W 1% 0402"
-			(at 15.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110009031024-R"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "V8TS"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "YAGEO AMERICA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "RT0402FRE076K34"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "1%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "RT0402FRE076K34L-ND"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.35MM"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}YAGEO_RT-SERIES.PDF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "SHREESHAIL/310707"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/281216"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9b6102f-6dc2-4cf6-a33f-6ea199236a17")
-		)
-		(pin "2"
-			(uuid "5fce0ba6-3c8e-488f-b0a6-4dc5341f26d9")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "R282")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "R282")
 					(unit 1)
 				)
 			)
@@ -8122,6 +6670,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 223.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8467,6 +7024,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9019,6 +7585,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 256.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92968372-86b5-4c68-bc8a-682f3fe6ae0f")
 		)
@@ -9351,6 +7926,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 132.08 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9708,6 +8292,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 281.94 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "983c1fc0-4984-4503-b402-71e04cb001e0")
 		)
@@ -9724,375 +8317,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "C465")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:DGND_SIGNAL_GROUND")
-		(at 139.7 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c926d1f-0bbd-4ebf-820d-bd0f55cdedd9")
-		(property "Reference" "#PWR?"
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 139.7 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "650d4d3f-e3cc-4a5e-89de-958ea292b638")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "#PWR01442")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:root_0_MOSFET_IRLML6401TR")
-		(at 111.76 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ff80678-170c-4c01-8872-16d7175f43c7")
-		(property "Reference" "Q10"
-			(at 111.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IRLML6401"
-			(at 111.76 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TO_SOT23-123"
-			(at 111.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TRANSISTOR MOSFET P-CHANNEL SOT23-3"
-			(at 111.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "130009031213-P"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "G4_SVGA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "IRF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "IRLML6401TRPBF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "TRANSISTO~{R}MOSFET"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOT23-3"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "IRLML6401PBFCT-ND"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.11MM"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+150癈"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}DISCRETE~{S}TRANSISTORS_FET~{S}IRLML6401.PDF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MAZHAR/040505"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "SHREESHAIL/020206"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "Pb-Free"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85412900"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "MOSFET_IRLML6401TR"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "TO_SOT23-123"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2b28a639-d27c-4d6a-a584-e3c03a5db90a")
-		)
-		(pin "2"
-			(uuid "eca17afe-3206-4c91-850d-a09ea373585f")
-		)
-		(pin "1"
-			(uuid "5f08aa0c-2321-4a05-a405-604e1ed45afa")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -10408,6 +8632,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 40.64 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10743,6 +8976,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 40.64 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11294,6 +9536,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 279.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05674cce-b736-454b-89ad-677799e6e0f4")
 		)
@@ -11452,304 +9703,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "#PWR01464")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:root_0_MOSFET_IRLML6401TR")
-		(at 111.76 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4927467c-e4bd-4519-84e0-2df27e983117")
-		(property "Reference" "Q9"
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IRLML6401"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TO_SOT23-123"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TRANSISTOR MOSFET P-CHANNEL SOT23-3"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "MOSFET_IRLML6401TR"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85412900"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "Pb-Free"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "SHREESHAIL/020206"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MAZHAR/040505"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}DISCRETE~{S}TRANSISTORS_FET~{S}IRLML6401.PDF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+150癈"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.11MM"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "IRLML6401PBFCT-ND"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOT23-3"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "TRANSISTO~{R}MOSFET"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "IRLML6401TRPBF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "IRF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "G4_SVGA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "130009031213-P"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "TO_SOT23-123"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c49eb37a-f7f4-40dd-abf8-b98eedf1896e")
-		)
-		(pin "1"
-			(uuid "2daf75d8-cce3-4b99-9905-bb297f914ee4")
-		)
-		(pin "2"
-			(uuid "bf122e17-73e0-4831-ad39-6305fb9e7a50")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -12036,6 +9989,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 411.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12389,6 +10351,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 33.02 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12817,6 +10788,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 408.94 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa01c86d-3645-4f65-8290-a06042ed232c")
 		)
@@ -13109,6 +11089,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 408.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13455,6 +11444,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 205.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45843c26-8820-4aa5-aa7d-2b22f2d2037a")
 		)
@@ -13757,6 +11755,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14175,6 +12182,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 281.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d14e7d4-bf30-4c8d-b10b-82cd2ffdef1d")
 		)
@@ -14581,6 +12597,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 398.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afaee5d4-8610-4d52-91e7-3a37c6b8ac26")
 		)
@@ -14597,77 +12622,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "R470")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:DGND_SIGNAL_GROUND")
-		(at 139.7 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70633530-38b0-4dbd-abfa-be303d2a779c")
-		(property "Reference" "#PWR?"
-			(at 139.7 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 139.7 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "fd3a22e7-a8c9-4c59-8a43-ff4a8af23539")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "#PWR01443")
 					(unit 1)
 				)
 			)
@@ -14984,6 +12938,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 469.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15360,6 +13323,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15830,6 +13802,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 388.62 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ec285fd6-d0c8-4249-a3ed-8fecef5f026f")
 		)
@@ -16144,6 +14125,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 86.36 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16565,6 +14555,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 254 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "522ced04-91aa-45b2-9c56-6e15be42767c")
 		)
@@ -16919,6 +14918,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 281.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0182576f-21d1-4fa6-b4e5-237ad8b77ae2")
 		)
@@ -17251,6 +15259,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17608,6 +15625,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 426.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34cb29c7-e69e-4090-ab50-3c2558095545")
 		)
@@ -17962,6 +15988,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 241.3 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "345e927d-1816-49d6-930e-45c8e0181e36")
 		)
@@ -18294,6 +16329,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 462.28 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18699,6 +16743,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 261.62 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee48747c-7e5d-497d-bb39-b4b427acb5f2")
 		)
@@ -19004,6 +17057,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 218.44 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7fdb4bad-ecfb-4e48-ba0f-35d1ab535430")
 		)
@@ -19032,304 +17094,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "U74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:root_0_MOSFET_IRLML6401TR")
-		(at 111.76 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97923e2e-5a19-4e6f-ac13-be9599e96049")
-		(property "Reference" "Q17"
-			(at 111.76 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IRLML6401"
-			(at 111.76 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TO_SOT23-123"
-			(at 111.76 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TRANSISTOR MOSFET P-CHANNEL SOT23-3"
-			(at 111.76 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "MOSFET_IRLML6401TR"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85412900"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "Pb-Free"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "SHREESHAIL/020206"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MAZHAR/040505"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}DISCRETE~{S}TRANSISTORS_FET~{S}IRLML6401.PDF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+150癈"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.11MM"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "IRLML6401PBFCT-ND"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOT23-3"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "TRANSISTO~{R}MOSFET"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "IRLML6401TRPBF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "IRF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "G4_SVGA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "130009031213-P"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "TO_SOT23-123"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bf02a597-76cb-4e67-ad05-a5fcc7718139")
-		)
-		(pin "2"
-			(uuid "8219fbed-199c-4379-9a98-29a01ea0c2ca")
-		)
-		(pin "1"
-			(uuid "2f5dc6a9-e501-4247-a003-417b31f632a6")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -19401,77 +17165,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "#PWR01436")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:DGND_SIGNAL_GROUND")
-		(at 139.7 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0001de7-fe5d-4b15-b140-a0218e55e8fc")
-		(property "Reference" "#PWR?"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "da6f72a5-2daa-4144-88c9-ee5af0cb8ef3")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "#PWR01439")
 					(unit 1)
 				)
 			)
@@ -19881,6 +17574,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 279.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7f36f3f-67fe-4832-8163-0bb259b3aa5a")
 		)
@@ -20213,6 +17915,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 452.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20623,6 +18334,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 251.46 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "614f6f82-4274-481e-a2e0-5b7a4c744976")
 		)
@@ -20955,6 +18675,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 398.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21435,6 +19164,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 193.04 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74c6b9f3-9704-495a-b388-5a3693f32cc7")
 		)
@@ -21857,6 +19595,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 424.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -22356,6 +20103,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 111.76 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "369c9b02-81f7-4fe9-9676-646ced76d2bf")
 		)
@@ -22372,77 +20128,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
 					(reference "C283")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "35-altium-import:VDDR_CORE_BAR")
-		(at 17.78 281.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e04e9812-8f60-4ec1-a64d-ab250b9290c6")
-		(property "Reference" "#PWR?"
-			(at 17.78 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDR_CORE"
-			(at 17.78 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "379e18b5-87a3-44ac-aefb-1f5f266d0fce")
-		)
-		(instances
-			(project ""
-				(path "/c1550b57-1ac8-4e9c-a458-7d0d1c7edf6e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/a1e381d3-626e-457b-bee6-faf2e9e95583"
-					(reference "#PWR01432")
 					(unit 1)
 				)
 			)
@@ -22975,6 +20660,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 429.26 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40dcc5a2-5b50-4b8b-8590-a836b4d7d261")
 		)
@@ -23307,6 +21001,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 193.04 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

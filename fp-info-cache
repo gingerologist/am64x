@@ -1,4 +1,4 @@
-23192641071561387
+23196090598638453
 Abacus
 0402_1005Metric_for_0.25mm_grid
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -84,7 +84,7 @@ FC1610AN
 0
 0
 Abacus
-L_0201_0603Metric_0.64x0.32mm_Courtyard_1
+L_0201_0603Metric_0.64x0.32mm_Courtyard
 Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
 capacitor
 0
@@ -118,6 +118,13 @@ MSOP SO
 0
 22
 10
+Abacus
+NFM15
+
+
+0
+4
+3
 Abacus
 QFN-24_EP_4x4_Pitch0.5mm
 
@@ -216,6 +223,13 @@ VSON 0.65
 0
 9
 9
+Abacus
+Texas_VSON-HR-6_1.5x1.5mm_P0.5mm
+
+
+0
+6
+6
 Abacus
 USB_C_Receptacle_XKB_U262-16XN-4BVC11
 USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf

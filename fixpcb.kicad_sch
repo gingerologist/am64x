@@ -143,6 +143,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -199,6 +208,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -271,6 +289,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -327,6 +354,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -399,6 +435,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -455,6 +500,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 68.58 0)
 			(effects
 				(font
@@ -527,6 +581,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -583,6 +646,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -655,6 +727,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -711,6 +792,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -783,6 +873,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -847,6 +946,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "proc101d"
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/6a723798-eff9-4e65-87c2-27b6bab91a7a"
@@ -903,6 +1011,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
 			(at 38.1 93.98 0)
 			(effects
 				(font

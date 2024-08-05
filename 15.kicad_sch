@@ -597,365 +597,6 @@
 				)
 			)
 		)
-		(symbol "15-altium-import:root_0_TCA9554APWR_TSSOP16"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC 8-BIT I2C AND SMBUS I/O EXPANDER WITH INTERRUPT O/P TSSOP16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*TSSOP16_25-59_205X180_1-2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_TCA9554APWR_TSSOP16_1_0"
-				(rectangle
-					(start 25.4 0)
-					(end 0 -27.94)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 7.62)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -15.24 180)
-					(length 7.62)
-					(name "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -17.78 180)
-					(length 7.62)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -20.32 180)
-					(length 7.62)
-					(name "P7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 33.02 -25.4 180)
-					(length 7.62)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -7.62 -12.7 0)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at -7.62 -15.24 0)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 7.62 270)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -5.08 0)
-					(length 7.62)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -7.62 0)
-					(length 7.62)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -2.54 180)
-					(length 7.62)
-					(name "P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -5.08 180)
-					(length 7.62)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -7.62 180)
-					(length 7.62)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -10.16 180)
-					(length 7.62)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -35.56 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -12.7 180)
-					(length 7.62)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "15-altium-import:root_0_TMP100NA/3K_SOT23-6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1129,153 +770,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "15-altium-import:root_1_CAP_Dup3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CERAMIC 0.1uF 25V 20% X5R 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAP0402_0-75*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_CAP_Dup3_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.254) (xy 0.508 4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0.254) (xy 1.778 4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.778 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1685,22 +1179,10 @@
 		(uuid "1a7d28e0-693d-46a6-bb93-525314dda440")
 	)
 	(junction
-		(at 297.18 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cfa2347-9a1c-42c3-9436-5a1474632677")
-	)
-	(junction
 		(at 254 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "561bda9b-4bc3-49f1-b87c-228f762ba6b1")
-	)
-	(junction
-		(at 325.12 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c88d5a1-3de8-48e7-8976-12503cdb8cfb")
 	)
 	(junction
 		(at 137.16 81.28)
@@ -1757,12 +1239,6 @@
 		(uuid "e3d59d3f-48f7-4151-985a-bb6ed00540bd")
 	)
 	(junction
-		(at 297.18 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed35b109-ce38-484d-8a26-237d58895c2b")
-	)
-	(junction
 		(at 127 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1781,36 +1257,8 @@
 		(uuid "fc05ef9c-6223-4e00-bfe5-f34369554b6f")
 	)
 	(no_connect
-		(at 345.44 233.68)
-		(uuid "05f05340-8adb-4970-a076-1f8a400b9b1c")
-	)
-	(no_connect
-		(at 345.44 238.76)
-		(uuid "4a6818fc-64c2-472f-b8f1-623e01f7dac5")
-	)
-	(no_connect
-		(at 345.44 246.38)
-		(uuid "7a4d2561-64dd-4411-bd29-94856f249970")
-	)
-	(no_connect
-		(at 345.44 248.92)
-		(uuid "7ba23dd5-52c0-4aa2-89e2-a8bbdb728d98")
-	)
-	(no_connect
-		(at 345.44 241.3)
-		(uuid "7c34d8a7-0866-4e83-aa0b-95bbfdbacf68")
-	)
-	(no_connect
 		(at 215.9 236.22)
 		(uuid "b0191867-ce8a-454f-86d6-eabf16f40f9b")
-	)
-	(no_connect
-		(at 345.44 236.22)
-		(uuid "cbf0e503-d147-4ced-9e0e-d1390254115f")
-	)
-	(no_connect
-		(at 345.44 243.84)
-		(uuid "e4af02e8-61fb-439b-92d3-731b1676da67")
 	)
 	(wire
 		(pts
@@ -1844,16 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 231.14) (xy 297.18 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1266d137-ce88-47cf-879a-a4473665a5a0")
-	)
-	(wire
-		(pts
 			(xy 91.44 215.9) (xy 101.6 215.9)
 		)
 		(stroke
@@ -1861,16 +1299,6 @@
 			(type default)
 		)
 		(uuid "14d314df-46b9-413c-8479-de6580b0838a")
-	)
-	(wire
-		(pts
-			(xy 325.12 269.24) (xy 325.12 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19902b79-4fa5-4a9a-af91-f32b95a51fff")
 	)
 	(wire
 		(pts
@@ -1954,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 231.14) (xy 345.44 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3468a354-9f46-475b-97d9-bc375abc886b")
-	)
-	(wire
-		(pts
 			(xy 360.68 81.28) (xy 360.68 78.74)
 		)
 		(stroke
@@ -1971,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "347a42da-e834-4938-b7fd-3ff9e1d23656")
-	)
-	(wire
-		(pts
-			(xy 287.02 284.48) (xy 287.02 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d0e5fb-c421-41d7-bf83-53b84f61e976")
 	)
 	(wire
 		(pts
@@ -2044,16 +1452,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 284.48) (xy 287.02 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a0fdfc-c534-4983-91ed-b63010277c28")
-	)
-	(wire
-		(pts
 			(xy 137.16 63.5) (xy 137.16 60.96)
 		)
 		(stroke
@@ -2061,16 +1459,6 @@
 			(type default)
 		)
 		(uuid "4d4bca85-c386-4855-97d8-52e820cad7c9")
-	)
-	(wire
-		(pts
-			(xy 297.18 236.22) (xy 297.18 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f22b7dc-150a-4108-a10a-4d4340e1739d")
 	)
 	(wire
 		(pts
@@ -2104,16 +1492,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 233.68) (xy 297.18 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "539b2203-0b06-40d0-907c-0d55a1b806a9")
-	)
-	(wire
-		(pts
 			(xy 335.28 81.28) (xy 335.28 78.74)
 		)
 		(stroke
@@ -2121,26 +1499,6 @@
 			(type default)
 		)
 		(uuid "560cedbe-5cd3-4638-b546-147db9ddaca5")
-	)
-	(wire
-		(pts
-			(xy 297.18 231.14) (xy 304.8 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578cb231-2990-44cb-be2b-c83b96756105")
-	)
-	(wire
-		(pts
-			(xy 350.52 220.98) (xy 350.52 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e946d40-7493-4312-9342-4e6fc3cf3eb9")
 	)
 	(wire
 		(pts
@@ -2174,16 +1532,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 243.84) (xy 276.86 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619d1e5e-c9bf-4d4b-9d92-b842b2c76065")
-	)
-	(wire
-		(pts
 			(xy 424.18 330.2) (xy 383.54 330.2)
 		)
 		(stroke
@@ -2214,16 +1562,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 254) (xy 345.44 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb26e9f-fbba-4710-81d3-e05a5fe41d9a")
-	)
-	(wire
-		(pts
 			(xy 254 63.5) (xy 254 60.96)
 		)
 		(stroke
@@ -2251,16 +1589,6 @@
 			(type default)
 		)
 		(uuid "7d6a463f-4f4e-4b73-b457-2a637839aad0")
-	)
-	(wire
-		(pts
-			(xy 304.8 236.22) (xy 297.18 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81744473-1982-4b16-af0e-2982173c7dc4")
 	)
 	(wire
 		(pts
@@ -2321,16 +1649,6 @@
 			(type default)
 		)
 		(uuid "8b350ca6-0009-4b8f-9f4b-c6a1cdf3717d")
-	)
-	(wire
-		(pts
-			(xy 297.18 233.68) (xy 297.18 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c9c31db-d38a-4d3a-ad9a-229b67b2891f")
 	)
 	(wire
 		(pts
@@ -2411,16 +1729,6 @@
 			(type default)
 		)
 		(uuid "9f2319d6-e3d8-4d9a-97ed-e9b490314ef1")
-	)
-	(wire
-		(pts
-			(xy 325.12 218.44) (xy 325.12 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2023f9f-e186-46e2-8964-f066e10d68e7")
 	)
 	(wire
 		(pts
@@ -2514,36 +1822,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 218.44) (xy 340.36 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b94034-b482-4aa3-a02f-bd9b4454bc79")
-	)
-	(wire
-		(pts
-			(xy 378.46 213.36) (xy 378.46 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0bf7eb-0523-41c2-b3d8-9acee95c4c1c")
-	)
-	(wire
-		(pts
-			(xy 332.74 218.44) (xy 325.12 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc634cda-03a1-44cc-9d40-a82da5978666")
-	)
-	(wire
-		(pts
 			(xy 208.28 210.82) (xy 198.12 210.82)
 		)
 		(stroke
@@ -2604,26 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 269.24) (xy 287.02 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99948b8-5211-4475-809e-75b57c86867d")
-	)
-	(wire
-		(pts
-			(xy 325.12 220.98) (xy 325.12 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5b922c-bb2d-4ba9-91d3-def239285b7f")
-	)
-	(wire
-		(pts
 			(xy 157.48 86.36) (xy 127 86.36)
 		)
 		(stroke
@@ -2631,16 +1889,6 @@
 			(type default)
 		)
 		(uuid "ca6309c7-7a46-4d6d-835c-de2c6557a780")
-	)
-	(wire
-		(pts
-			(xy 279.4 233.68) (xy 279.4 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9bd682-b3a9-49f8-962a-c071da3644e4")
 	)
 	(wire
 		(pts
@@ -2734,16 +1982,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 226.06) (xy 378.46 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdc76fd-7014-4d5c-807e-197c7383603f")
-	)
-	(wire
-		(pts
 			(xy 187.96 91.44) (xy 167.64 91.44)
 		)
 		(stroke
@@ -2761,16 +1999,6 @@
 			(type default)
 		)
 		(uuid "efc1dcbc-ee3d-4f1a-9de2-dc8cb052e743")
-	)
-	(wire
-		(pts
-			(xy 304.8 241.3) (xy 276.86 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0779a6b-adb6-411c-bb02-22d8718521c9")
 	)
 	(wire
 		(pts
@@ -2801,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "f71a67ed-0f5e-4afe-baf3-892c5d70e9e1")
-	)
-	(wire
-		(pts
-			(xy 424.18 320.04) (xy 383.54 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8171692-85c8-46b8-b53f-76ad669c53e8")
 	)
 	(wire
 		(pts
@@ -2992,18 +2210,6 @@
 		)
 		(uuid "e6b293a4-695d-4098-b8d1-4b2d1b6989ee")
 	)
-	(text "I2C ADDRESS: 0X38"
-		(exclude_from_sim no)
-		(at 332.74 267.97 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f718a106-286d-4366-81a9-48509567f920")
-	)
 	(text "Cad Note :- PLACE TEMP SENSOR CLOSE TO CORE POWER SECTION"
 		(exclude_from_sim no)
 		(at 251.46 128.016 0)
@@ -3048,17 +2254,6 @@
 		)
 		(uuid "09648640-95ee-4345-b28c-db008ef1f040")
 	)
-	(label "SoC_I2C0_SDA"
-		(at 279.4 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a2d464b-1f6f-4dc9-886e-b41a022bc667")
-	)
 	(label "SoC_I2C1_SCL"
 		(at 421.64 91.44 0)
 		(fields_autoplaced yes)
@@ -3092,39 +2287,6 @@
 		)
 		(uuid "46d0fff0-4ec0-4a63-a8ff-40fe17b41554")
 	)
-	(label "HSE_DETECT"
-		(at 350.52 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e165139-3ed4-460e-bc7c-aafa7824a0ba")
-	)
-	(label "SoC_I2C0_SCL"
-		(at 279.4 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51fc3967-535b-4a7f-ba50-97ddb6e5dc7d")
-	)
-	(label "HSE_DETECT"
-		(at 391.16 320.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ec425a0-f57f-455a-ba82-ae7c7ff823d8")
-	)
 	(label "SoC_I2C1_SCL"
 		(at 167.64 96.52 0)
 		(fields_autoplaced yes)
@@ -3157,17 +2319,6 @@
 			(justify left bottom)
 		)
 		(uuid "7442ae40-49f7-4816-8bf8-79571bb3fca6")
-	)
-	(label "EXP_BRD_DET_INTn"
-		(at 347.98 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80d70274-e74d-4e26-b9db-8d59380bc8ff")
 	)
 	(label "SoC_I2C1_SDA"
 		(at 167.64 99.06 0)
@@ -3223,17 +2374,6 @@
 			(justify left bottom)
 		)
 		(uuid "bd5e275d-0d4f-4e4f-bb9f-668308840214")
-	)
-	(label "EXP_BRD_DET_INTn"
-		(at 292.1 284.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd758302-17fa-4660-ac62-0b387d176055")
 	)
 	(label "EEPROM_A1"
 		(at 114.3 241.3 0)
@@ -3380,28 +2520,6 @@
 		(uuid "4b63db33-213a-4cfe-8758-cc01c38bb81c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 440.5303 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HSE_DETECT"
-		(shape input)
-		(at 424.18 320.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72120609-2d0c-4b1d-974b-8448bad4a927")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 438.595 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,6 +2909,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cabd504f-16ed-49c6-8258-ed23c99c6546")
 		)
@@ -4096,6 +3223,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 322.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a6d7d037-4af8-4142-b5c2-186709868d0e")
 		)
@@ -4337,431 +3473,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "#PWR0353")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:root_1_CAP_Dup3")
-		(at 335.28 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d7d326f-c093-4524-b2bf-bdd2d3da2840")
-		(property "Reference" "C209"
-			(at 327.66 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 340.36 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP0402_0-75"
-			(at 335.28 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CERAMIC 0.1uF 25V 20% X5R 0402"
-			(at 335.28 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFR_NAME" "YAGEO AMERICA"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "CAP0402_0-75"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "CAP"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "CAP0402_0-75"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85322990"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "MANIRAJA/170820"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "ALVY/170820"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}CAPACITOR~{S}885012105018.PDF"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+85癈"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.55MM"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "732-7495-1-ND"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "NA"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "25V"
-			(at 340.36 220.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "CAPACITOR~{S}CERAMIC"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "885012105018"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "WURTH ELECTRONICS"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "AM64x_EVM_BRD"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "120020080003-R"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFR_PART_NUMBER" "CC0402KRX5R8BB104"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "CAP0402_0-75"
-			(at 0 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "febaae5c-64dc-4f82-b6b9-18406e1ce1ca")
-		)
-		(pin "2"
-			(uuid "c43f1fb3-dae5-4bfa-8240-f684decd74e8")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "C209")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "C209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:DGND_SIGNAL_GROUND")
-		(at 350.52 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e53a68c-e9fb-48ca-92cd-7b2ba173e7aa")
-		(property "Reference" "#PWR?"
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 350.52 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "5f09ba16-9310-4d2e-96ec-1b2629523ba6")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -5152,6 +3863,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "695c89a5-266b-4a1a-b776-3bba58cab995")
 		)
@@ -5487,6 +4207,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "717292e5-e27b-4383-b489-3a15dd09a670")
 		)
@@ -5818,6 +4547,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 350.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6156,6 +4894,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d91c960-4cbc-4a2c-bbc4-858a86f8c520")
 		)
@@ -6243,77 +4990,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "#PWR0343")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:DGND_SIGNAL_GROUND")
-		(at 325.12 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49c2edcc-193e-4d78-aae6-a88b7f07a7d3")
-		(property "Reference" "#PWR?"
-			(at 325.12 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 325.12 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ce743a53-ceb7-4d27-8338-d57bb2fecc80")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -6633,6 +5309,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 104.14 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35a3ccfc-ef71-424c-8c67-7363772c7367")
 		)
@@ -6935,6 +5620,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 187.96 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7291,6 +5985,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4941f87-cca0-4157-8715-456319f28145")
 		)
@@ -7623,6 +6326,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8174,6 +6886,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 449.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d585ea7c-3d30-4ee8-901a-c06210152861")
 		)
@@ -8574,6 +7295,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 99.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8983,6 +7713,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 449.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d9ed69-4d36-4ff5-bcde-652aca4c15ad")
 		)
@@ -8996,830 +7735,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:root_2_RESISTOR_Dup6")
-		(at 289.56 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e2f2312-e88a-4eed-9113-9cfba3b65ab1")
-		(property "Reference" "R226"
-			(at 289.56 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10K"
-			(at 289.56 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 289.56 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K 1/16W 5% 0402"
-			(at 289.56 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110011060021-R"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "HSE"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "YAGEO AMERICA"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "RC0402JR-0710KL"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "5%"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "311-10KJRCT-ND"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}RCXXXXL-SER_MAR18.PDF"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MAZHAR/230805"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/061216"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fbc5fcd-953e-4a2e-bf9d-260154e7fc53")
-		)
-		(pin "2"
-			(uuid "889f84e9-276c-41f2-aec8-47d037ce6db2")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "R226")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "R226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:DGND_SIGNAL_GROUND")
-		(at 279.4 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4fd2d83-5245-4eb6-b269-2fcd3887283f")
-		(property "Reference" "#PWR?"
-			(at 279.4 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 279.4 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4c6dd0a9-1534-4889-8178-9a5fd0a4ec84")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0335")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:root_0_TCA9554APWR_TSSOP16")
-		(at 312.42 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b061c9eb-4489-4007-866d-e39d95d6a503")
-		(property "Reference" "U66"
-			(at 314.198 227.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TCA9554APWR"
-			(at 330.2 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TSSOP16_25-59_205X180_1-2"
-			(at 312.42 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC 8-BIT I2C AND SMBUS I/O EXPANDER WITH INTERRUPT O/P TSSOP16"
-			(at 312.42 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "TCA9554APWR_TSSOP16"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "141017090007-R"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "TI_MAXIE_CPB"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "TEXAS INSTRUMENTS"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "TCA9554APWR"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "IC~{S}DIGITA~{L}BUSTRANSCEIVER"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "NA"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "TSSOP16"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "296-28120-1-ND"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.20MM"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "173mg"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-40癈+85癈"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}IC~{S}DIGITA~{L}BUSTRANSCEIVE~{R}TCA9554.PDF"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MANIRAJA/110917"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "MANIRAJA/110917"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85423100"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "TSSOP16_25-59_205X180_1-2"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "TSSOP16_25-59_205X180_1-2"
-			(at 0 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b30d23d-db0c-4a8c-ab54-862b279b6cbf")
-		)
-		(pin "14"
-			(uuid "b0f234eb-9fa6-44e8-9572-73573d1dc97e")
-		)
-		(pin "12"
-			(uuid "0ca51428-3e99-4420-a4fd-a29edaaeaffb")
-		)
-		(pin "3"
-			(uuid "3dbdea4d-0244-4049-9dba-afe7617d4a24")
-		)
-		(pin "13"
-			(uuid "5460df0e-76b5-4152-ad6f-73bf74fe9f3d")
-		)
-		(pin "11"
-			(uuid "02701c43-e93a-452a-a803-f3573be11bc6")
-		)
-		(pin "7"
-			(uuid "4d430e3a-5209-4cd5-a973-6e2b1a90ad78")
-		)
-		(pin "15"
-			(uuid "a06eda21-9c2b-47b3-b12b-7470ac1c3486")
-		)
-		(pin "5"
-			(uuid "e410faa6-c1b3-448d-9b05-ccdeef8dae8a")
-		)
-		(pin "1"
-			(uuid "6aa90b36-b25b-475c-85f6-e9397aea1a1a")
-		)
-		(pin "10"
-			(uuid "ec5871e0-478b-4f61-8a3f-0ba2d8505a61")
-		)
-		(pin "16"
-			(uuid "6b857cbf-1424-4dbc-98ea-51f02f221414")
-		)
-		(pin "4"
-			(uuid "a532c1c1-dfdd-422a-9fd3-937e7bd22eee")
-		)
-		(pin "8"
-			(uuid "a3da8c7f-14c4-45b4-9207-7e24bf67d489")
-		)
-		(pin "6"
-			(uuid "28536e78-5864-4a8d-9eb7-2b2fc159587d")
-		)
-		(pin "9"
-			(uuid "70141dbe-9ce6-45f9-903b-74ed342a4ca1")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "U66")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "U66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:VCC_3V3_SYS_BAR")
-		(at 378.46 210.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b46621db-eddd-457c-aae9-a86d2bf5df19")
-		(property "Reference" "#PWR?"
-			(at 378.46 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_3V3_SYS"
-			(at 378.46 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "29b66352-f9e7-47b4-a669-6746abe89199")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -10210,6 +8125,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 261.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6cd4eb0-a50a-4b15-b553-4c0e1564bfdb")
 		)
@@ -10226,77 +8150,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "R133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:VCC_3V3_SYS_BAR")
-		(at 287.02 264.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c52450d9-defd-4103-91b1-9c913b13f96b")
-		(property "Reference" "#PWR?"
-			(at 287.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_3V3_SYS"
-			(at 287.02 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 287.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "469261d1-cdcb-436a-a843-a436f7034e03")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -10613,6 +8466,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 88.9 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10951,6 +8813,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 261.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95688913-3b79-4251-a974-c70edb6a2b07")
 		)
@@ -11282,6 +9153,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11661,6 +9541,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0ede8c7d-9813-4026-b9b7-14ff65d2ba9c")
 		)
@@ -11689,341 +9578,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:root_2_RESISTOR_Dup6")
-		(at 381 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d65b51a7-8ec3-4c75-9254-4f2808ddc1a6")
-		(property "Reference" "R224"
-			(at 381 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10K"
-			(at 381 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 381 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K 1/16W 5% 0402"
-			(at 381 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/061216"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MAZHAR/230805"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}RCXXXXL-SER_MAR18.PDF"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "311-10KJRCT-ND"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "5%"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "RC0402JR-0710KL"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "YAGEO AMERICA"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "HSE"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110011060021-R"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 5.08 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94583193-766d-4e31-a8dd-a842c80d659e")
-		)
-		(pin "1"
-			(uuid "cf18da0f-9e19-401c-893e-72282dc4c71d")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "R224")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "R224")
 					(unit 1)
 				)
 			)
@@ -12095,77 +9649,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
 					(reference "#PWR0329")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "15-altium-import:VCC_3V3_SYS_BAR")
-		(at 325.12 215.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8da9008-bf2b-43dc-8cc0-6a9eb0cfdfc7")
-		(property "Reference" "#PWR?"
-			(at 325.12 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_3V3_SYS"
-			(at 325.12 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "24631291-4d3c-4184-874d-c146337a13b9")
-		)
-		(instances
-			(project ""
-				(path "/d75899cf-a902-4685-9411-2af1e110ba86"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/020a263b-7f77-4480-91e5-967eb316b846"
-					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -12626,6 +10109,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 213.36 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95c363eb-f276-4ef0-8048-72f85c0e7f8e")
 		)
@@ -12961,6 +10453,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 109.22 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "939f65f3-30a4-4a12-9b80-78915d585639")
 		)
@@ -13293,6 +10794,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

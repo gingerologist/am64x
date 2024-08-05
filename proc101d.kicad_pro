@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.016,
-          "height": 1.7018,
-          "width": 1.7018
+          "drill": 0.0,
+          "height": 0.4064,
+          "width": 0.4064
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -178,7 +178,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.14732,
+        0.2,
+        0.254,
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -210,6 +215,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.2032
         }
       ],
       "zones_allow_external_fillets": false
@@ -834,6 +851,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -887,10 +928,6 @@
       "Root"
     ],
     [
-      "14b34273-87c2-49e0-9b4e-0e38c3713aca",
-      "01"
-    ],
-    [
       "54318cda-3295-4d15-89e5-1d460ae721c9",
       "soc_power"
     ],
@@ -923,18 +960,6 @@
       "cpsw3g_rgmii_phy"
     ],
     [
-      "1c5f2ae1-4e42-42a8-8242-61cead4425e4",
-      "icssg_rgmii_2_phy"
-    ],
-    [
-      "a7b7e6c4-5c27-4975-82b6-565b6c86c8e0",
-      "icssg_rgmii_1_phy"
-    ],
-    [
-      "c551427e-d111-4b1b-ab52-82371f1f6947",
-      "test_auto"
-    ],
-    [
       "71cb7a02-f8ae-4a9c-bca9-a2732efb0ffc",
       "boot_mode"
     ],
@@ -943,24 +968,12 @@
       "current_mon"
     ],
     [
-      "fb62d151-b685-4318-b774-6a8e36543d86",
-      "xds110"
-    ],
-    [
       "4d9ef161-a787-4659-a187-66891a41dc2e",
       "jtag"
     ],
     [
-      "e59dd99e-a2d9-4062-a902-515cfe66f21d",
-      "mipi"
-    ],
-    [
       "59a811ba-7c25-40e5-8e3d-f0b90cc619e9",
       "usb2"
-    ],
-    [
-      "a28ed050-448c-4a41-a879-6b9102bbafdb",
-      "ft4232"
     ],
     [
       "455fef30-a1b2-4c9f-bc04-3074a9d7744e",
@@ -995,6 +1008,10 @@
       "mcu_general"
     ],
     [
+      "4d323eef-97a1-488e-af4d-fb6b860cf634",
+      "usb-power-efuse"
+    ],
+    [
       "a1e381d3-626e-457b-bee6-faf2e9e95583",
       "reset"
     ],
@@ -1013,10 +1030,6 @@
     [
       "937d601c-ff69-461d-b312-d5b716596a8a",
       "peripheral_power_supply"
-    ],
-    [
-      "c9416ae5-853a-4adb-8ec6-8b79374967eb",
-      "mechanical"
     ],
     [
       "6a723798-eff9-4e65-87c2-27b6bab91a7a",

@@ -12694,179 +12694,6 @@
 				)
 			)
 		)
-		(symbol "30-altium-import:root_3_RESISTOR_Dup5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 0E 1/16W JUMPER 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*RES0402_0-5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_3_RESISTOR_Dup5_1_0"
-				(polyline
-					(pts
-						(xy -6.858 -3.302) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -1.778) (xy -6.858 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.302) (xy -5.334 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -1.778) (xy -3.81 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -3.302) (xy -2.286 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -0.762 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 11 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 83.82 55.88)
@@ -12947,18 +12774,6 @@
 		(uuid "46d83804-8d61-4315-8308-39dc7daa46b3")
 	)
 	(junction
-		(at 162.56 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "514a69ad-69a2-4a95-a009-61e075b7a5a8")
-	)
-	(junction
-		(at 368.3 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5256a6a4-f9b8-49fa-a1f1-7c2f1af5da30")
-	)
-	(junction
 		(at 71.12 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12987,12 +12802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a5b5567-e9b0-414d-98c2-01702255eff9")
-	)
-	(junction
-		(at 365.76 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d00ba05-c10e-4c0d-98c5-231476fcc402")
 	)
 	(junction
 		(at 198.12 101.6)
@@ -13031,12 +12840,6 @@
 		(uuid "923d9d0c-e933-4eb2-9f8c-39547b52f6aa")
 	)
 	(junction
-		(at 414.02 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9acb77c2-1a58-4c89-b3f7-ad013db8d81e")
-	)
-	(junction
 		(at 266.7 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13071,12 +12874,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee327be-0e05-4fcd-8199-66c51fc8de0f")
-	)
-	(junction
-		(at 411.48 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c18ed69c-1d5c-4bef-8cca-9f181a6f9f04")
 	)
 	(junction
 		(at 198.12 114.3)
@@ -13213,12 +13010,20 @@
 		(uuid "cb85195b-6ee0-4951-8e84-e9a98aefa8b4")
 	)
 	(no_connect
+		(at 203.2 43.18)
+		(uuid "f1e8da5e-0d22-43e3-a93a-42db18fd6093")
+	)
+	(no_connect
 		(at 203.2 109.22)
 		(uuid "f2e616fe-a11a-4033-911b-8dd49bbff11b")
 	)
 	(no_connect
 		(at 203.2 96.52)
 		(uuid "f5115085-8f59-4aab-9446-1537efdd32b8")
+	)
+	(no_connect
+		(at 203.2 45.72)
+		(uuid "fb0bf4a6-32e3-4fef-97d7-39e10cc8faaf")
 	)
 	(wire
 		(pts
@@ -13289,16 +13094,6 @@
 			(type default)
 		)
 		(uuid "0a52066c-bb4f-4d01-90bd-a390ea28054d")
-	)
-	(wire
-		(pts
-			(xy 411.48 256.54) (xy 411.48 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eefbdc1-b834-4547-b431-26b894f66688")
 	)
 	(wire
 		(pts
@@ -13432,16 +13227,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 162.56 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e89e686-d32f-4dc7-9f38-4bf96465754e")
-	)
-	(wire
-		(pts
 			(xy 459.74 320.04) (xy 424.18 320.04)
 		)
 		(stroke
@@ -13459,16 +13244,6 @@
 			(type default)
 		)
 		(uuid "217c74e5-741d-4a01-b50c-75f736361770")
-	)
-	(wire
-		(pts
-			(xy 467.36 213.36) (xy 431.8 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ae443f-b28d-4012-9780-6baac28e6a6c")
 	)
 	(wire
 		(pts
@@ -13602,16 +13377,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 142.24) (xy 368.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3203a797-6dbd-4f41-a060-811d1d40e0ab")
-	)
-	(wire
-		(pts
 			(xy 314.96 142.24) (xy 335.28 142.24)
 		)
 		(stroke
@@ -13632,7 +13397,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 139.7) (xy 365.76 139.7)
+			(xy 347.98 139.7) (xy 381 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13659,16 +13424,6 @@
 			(type default)
 		)
 		(uuid "38dbb159-c9eb-432f-91d6-317839e051dc")
-	)
-	(wire
-		(pts
-			(xy 368.3 213.36) (xy 368.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b34b57d-ac04-4419-902b-b3589215c55c")
 	)
 	(wire
 		(pts
@@ -13992,23 +13747,13 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 246.38) (xy 419.1 246.38)
+			(xy 373.38 246.38) (xy 419.1 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60138f9f-9d35-45ae-990b-2d6207bd521a")
-	)
-	(wire
-		(pts
-			(xy 467.36 215.9) (xy 431.8 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6077307a-ef18-4b8d-9371-1df5387ac485")
 	)
 	(wire
 		(pts
@@ -14029,26 +13774,6 @@
 			(type default)
 		)
 		(uuid "6134c6d6-324a-4f39-b376-6a2c8255bd3b")
-	)
-	(wire
-		(pts
-			(xy 419.1 215.9) (xy 365.76 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62331ed5-cfbe-4450-8848-dc2623f3f7f3")
-	)
-	(wire
-		(pts
-			(xy 419.1 254) (xy 414.02 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f240c0-0956-488e-815b-d0af0f31aae6")
 	)
 	(wire
 		(pts
@@ -14152,16 +13877,6 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 254) (xy 414.02 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72089cab-1935-4900-8e14-96f56ec308db")
-	)
-	(wire
-		(pts
 			(xy 314.96 114.3) (xy 320.04 114.3)
 		)
 		(stroke
@@ -14252,16 +13967,6 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 256.54) (xy 431.8 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9d5a46-555e-454b-8ca6-43cd1cc93614")
-	)
-	(wire
-		(pts
 			(xy 261.62 96.52) (xy 256.54 96.52)
 		)
 		(stroke
@@ -14339,16 +14044,6 @@
 			(type default)
 		)
 		(uuid "89b3d167-8c5e-4b40-91dc-dfb2ab33f50a")
-	)
-	(wire
-		(pts
-			(xy 419.1 213.36) (xy 368.3 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5a2716-a4de-42ab-9ed2-af770a89186d")
 	)
 	(wire
 		(pts
@@ -14452,16 +14147,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 248.92) (xy 411.48 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b60b19-0218-4785-bef8-89e311d13a5a")
-	)
-	(wire
-		(pts
 			(xy 83.82 322.58) (xy 60.96 322.58)
 		)
 		(stroke
@@ -14489,16 +14174,6 @@
 			(type default)
 		)
 		(uuid "9ab930cc-1c74-4013-bfd0-7e52197e8ace")
-	)
-	(wire
-		(pts
-			(xy 162.56 45.72) (xy 162.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc5e17d-49da-4ace-a8cf-1aaf1552a4a9")
 	)
 	(wire
 		(pts
@@ -14672,16 +14347,6 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 256.54) (xy 411.48 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17cb315-4797-4276-ba48-b764f989e06a")
-	)
-	(wire
-		(pts
 			(xy 60.96 116.84) (xy 66.04 116.84)
 		)
 		(stroke
@@ -14702,7 +14367,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 248.92) (xy 419.1 248.92)
+			(xy 373.38 248.92) (xy 419.1 248.92)
 		)
 		(stroke
 			(width 0)
@@ -14742,7 +14407,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 142.24) (xy 386.08 142.24)
+			(xy 347.98 142.24) (xy 386.08 142.24)
 		)
 		(stroke
 			(width 0)
@@ -14809,16 +14474,6 @@
 			(type default)
 		)
 		(uuid "be835a64-22c0-4ee3-9665-b5daae994c96")
-	)
-	(wire
-		(pts
-			(xy 162.56 43.18) (xy 162.56 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48881db-5da8-4bd5-ba46-cd644f17bb3d")
 	)
 	(wire
 		(pts
@@ -14892,16 +14547,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 139.7) (xy 381 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa69a6a-60a0-4b70-af43-45a16341f727")
-	)
-	(wire
-		(pts
 			(xy 238.76 322.58) (xy 200.66 322.58)
 		)
 		(stroke
@@ -14969,16 +14614,6 @@
 			(type default)
 		)
 		(uuid "df79a7cf-3c35-4472-b379-4ea691510401")
-	)
-	(wire
-		(pts
-			(xy 203.2 43.18) (xy 162.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05b5b5d-bcf5-4d18-bcb5-a384bcb5bcb2")
 	)
 	(wire
 		(pts
@@ -15092,16 +14727,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 246.38) (xy 414.02 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb222d4b-ebd2-4aef-9c7b-4521ff79da78")
-	)
-	(wire
-		(pts
 			(xy 320.04 63.5) (xy 307.34 63.5)
 		)
 		(stroke
@@ -15172,16 +14797,6 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 254) (xy 431.8 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ae94c9-6cd3-449d-830f-99e6a7cc9922")
-	)
-	(wire
-		(pts
 			(xy 71.12 55.88) (xy 83.82 55.88)
 		)
 		(stroke
@@ -15199,16 +14814,6 @@
 			(type default)
 		)
 		(uuid "f307ce9d-c95c-4a6b-86c9-24bcceed96d4")
-	)
-	(wire
-		(pts
-			(xy 365.76 215.9) (xy 365.76 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4cc5a02-9b27-41ba-838c-46b1555ce093")
 	)
 	(wire
 		(pts
@@ -15333,19 +14938,6 @@
 		)
 		(uuid 025e40d3-8586-4153-8cec-c3eaf1028114)
 	)
-	(bezier
-		(pts
-			(xy 439.42 250.19) (xy 439.42 245.2801) (xy 432.5968 241.3) (xy 424.18 241.3)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1207e658-2d6f-4706-b2bb-511ba6f4ae9a)
-	)
 	(rectangle
 		(start 287.02 274.32)
 		(end 10.16 368.3)
@@ -15361,19 +14953,6 @@
 	)
 	(bezier
 		(pts
-			(xy 408.94 250.19) (xy 408.94 255.0998) (xy 415.7631 259.08) (xy 424.18 259.08)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1d23176b-bfe7-4290-876a-33ee99821552)
-	)
-	(bezier
-		(pts
 			(xy 341.63 147.32) (xy 347.9426 147.32) (xy 353.06 144.477) (xy 353.06 140.97)
 		)
 		(stroke
@@ -15384,19 +14963,6 @@
 			(type none)
 		)
 		(uuid 343fb5a5-fd98-48ec-b9bf-43c90bfe66ac)
-	)
-	(bezier
-		(pts
-			(xy 411.48 214.63) (xy 411.48 218.137) (xy 417.1659 220.98) (xy 424.18 220.98)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4bb424c1-a581-4078-afac-af1e40765f38)
 	)
 	(rectangle
 		(start 510.54 274.32)
@@ -15413,45 +14979,6 @@
 	)
 	(bezier
 		(pts
-			(xy 424.18 259.08) (xy 432.5968 259.08) (xy 439.42 255.0998) (xy 439.42 250.19)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 571128d2-e52b-4dfb-a6b1-83cb46b2e736)
-	)
-	(bezier
-		(pts
-			(xy 424.18 220.98) (xy 431.194 220.98) (xy 436.88 218.137) (xy 436.88 214.63)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 672b6ea4-a767-4b18-b877-1eb4a3e91e70)
-	)
-	(bezier
-		(pts
-			(xy 424.18 241.3) (xy 415.7631 241.3) (xy 408.94 245.2801) (xy 408.94 250.19)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 95667d4d-9829-471e-a8d8-aea604a20e47)
-	)
-	(bezier
-		(pts
 			(xy 341.63 134.62) (xy 335.3173 134.62) (xy 330.2 137.4629) (xy 330.2 140.97)
 		)
 		(stroke
@@ -15462,19 +14989,6 @@
 			(type none)
 		)
 		(uuid 9e2cfd32-5e8f-4f10-b2bc-392527cdff57)
-	)
-	(bezier
-		(pts
-			(xy 436.88 214.63) (xy 436.88 211.1229) (xy 431.194 208.28) (xy 424.18 208.28)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c5b0491f-85f6-4b23-9bb6-02666c93087c)
 	)
 	(bezier
 		(pts
@@ -15489,23 +15003,10 @@
 		)
 		(uuid c96924b6-57b0-4116-a7b1-42efb413ed6d)
 	)
-	(bezier
-		(pts
-			(xy 424.18 208.28) (xy 417.1659 208.28) (xy 411.48 211.1229) (xy 411.48 214.63)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e08349b4-4dee-4e3a-90fa-cf37478c75a7)
-	)
 	(text_box "D-Note :-\nSERDES0 inputs are not fail-safe.\nIf clock or data inputs are available before the\nSOC supply ramps,  VDDR_CORE rail could be\naffected causing booting issues based on t"
 		(exclude_from_sim no)
-		(at 278.892 170.18 0)
-		(size -98.552 -17.78)
+		(at 180.34 152.4 0)
+		(size 98.552 17.78)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -15582,26 +15083,6 @@
 		)
 		(uuid "801b203d-776c-479d-957e-e23b37e5cc9c")
 	)
-	(text_box "CAD Note:\nPlace Close to PCIe CON"
-		(exclude_from_sim no)
-		(at 461.518 263.652 0)
-		(size -29.718 -4.572)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left top)
-		)
-		(uuid "8b9fc617-0b82-487e-a240-24f36bbb6c51")
-	)
 	(text_box "D-Note :-\nErrata i2326 PCIe refclk Applicable?\ni2326 does not apply when PCIe refclk\nis from an external source. It only\napplies if SK-AM64B is generating the\nrefclk."
 		(exclude_from_sim no)
 		(at 403.86 87.376 0)
@@ -15662,26 +15143,6 @@
 		)
 		(uuid "cb9b6c2c-0b49-4668-85d5-5bebed8c450b")
 	)
-	(text_box "CAD Note:\nPlace Close to SoC"
-		(exclude_from_sim no)
-		(at 462.788 223.012 0)
-		(size -23.368 -4.572)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left top)
-		)
-		(uuid "fdcf6310-3ef0-4508-bca1-2df657fb9c5b")
-	)
 	(text "PCIe Reset"
 		(exclude_from_sim no)
 		(at 71.12 167.132 0)
@@ -15716,18 +15177,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a9d70c5-8a43-4805-a08d-027a6a467a81")
-	)
-	(text "CLOCK SELECTION"
-		(exclude_from_sim no)
-		(at 388.62 208.28 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5ce003a-6c4e-48d5-9985-3f1f09a7a3e5")
 	)
 	(text "Off Page Connections"
 		(exclude_from_sim no)
@@ -15829,17 +15278,6 @@
 			(justify left bottom)
 		)
 		(uuid "2fa99a35-3295-4aec-a244-96f45ef03641")
-	)
-	(label "CLKGEN_REFCLK4N"
-		(at 444.5 256.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30821b26-434d-410b-941e-6b4295d14a25")
 	)
 	(label "PCIe_PRSNT2n"
 		(at 63.5 320.04 0)
@@ -16017,17 +15455,6 @@
 		)
 		(uuid "6eef8cdc-7fcf-4493-a6bc-e430d006c088")
 	)
-	(label "CLKGEN_REFCLK1N"
-		(at 441.96 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f704db4-9332-4505-a707-3cc6e821ec46")
-	)
 	(label "SERDES_RXP0"
 		(at 165.1 81.28 0)
 		(fields_autoplaced yes)
@@ -16104,17 +15531,6 @@
 			(justify left bottom)
 		)
 		(uuid "9dbc163d-5d1d-4110-8935-a3545b1e3fe0")
-	)
-	(label "CLKGEN_REFCLK1P"
-		(at 441.96 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1da5978-9ed5-4638-b6c8-7fadad09423b")
 	)
 	(label "SERDES_REFCLK0_N"
 		(at 284.48 142.24 0)
@@ -16225,17 +15641,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb7ec629-6509-4505-8244-8a02c360413a")
-	)
-	(label "CLKGEN_REFCLK4P"
-		(at 444.5 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d001b99c-d6d6-4aaf-a3ff-e63b9e04e820")
 	)
 	(label "GPIO_PCIe_RST_OUT"
 		(at 434.34 314.96 0)
@@ -16358,50 +15763,6 @@
 			)
 		)
 	)
-	(global_label "CLKGEN_REFCLK1N"
-		(shape input)
-		(at 467.36 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "506c74f0-7d47-47b3-afc0-3abbdb7dfaa6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 488.2461 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLKGEN_REFCLK1P"
-		(shape input)
-		(at 467.36 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d037397-ee91-4285-873f-62c6b120e88a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 488.1856 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIe_MCU_PORz"
 		(shape input)
 		(at 459.74 309.88 0)
@@ -16415,50 +15776,6 @@
 		(uuid "6a36baa0-4fc9-4cc8-9586-0ef1f908e068")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 477.8443 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLKGEN_REFCLK4P"
-		(shape input)
-		(at 469.9 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74c7432c-06da-448c-ae4a-96c1bae00ccf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 490.7256 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLKGEN_REFCLK4N"
-		(shape input)
-		(at 469.9 256.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "991b0375-f35e-44f0-96fa-10f864ed8853")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 490.7861 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,6 +16306,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 426.72 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7bdad57-c2cd-46fc-8aa8-9678e60a8bb0")
 		)
@@ -17485,6 +16811,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8044070-16c8-40c3-8bbb-d08f7c39d1bf")
 		)
@@ -17737,6 +17072,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 86.36 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18085,6 +17429,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff6a1661-0ab2-4bc1-a288-da0ab02b2a68")
 		)
@@ -18417,6 +17770,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 378.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9a1f256-2647-409f-9623-eaa21417fd53")
 		)
@@ -18739,6 +18101,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 187.96 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19080,6 +18451,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 81.28 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f277ee7-0562-4b36-92cd-731ec2ad6404")
 		)
@@ -19414,6 +18794,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "076a58fc-34c1-41df-bf16-ae44a4e86e80")
 		)
@@ -19430,341 +18819,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
 					(reference "C450")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "30-altium-import:root_3_RESISTOR_Dup5")
-		(at 429.26 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b835cbd-cc17-48f0-86a7-f458910b480b")
-		(property "Reference" "R667"
-			(at 414.02 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0E"
-			(at 431.8 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 429.26 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0E 1/16W JUMPER 0402"
-			(at 429.26 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110010080019-R"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "PB_BUGBASE"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "VISHAY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "CRCW04020000Z0ED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "541-0.0JCT-ND"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}CRCW0603.PDF"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MUDDU/190810"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/201216"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da03c7d8-aab1-4005-bda3-24634087857f")
-		)
-		(pin "2"
-			(uuid "e029300a-34ef-4901-9e3e-c0507f9555e1")
-		)
-		(instances
-			(project ""
-				(path "/60f69d6a-14cd-425a-9740-a205e5b7b16f"
-					(reference "R667")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
-					(reference "R667")
 					(unit 1)
 				)
 			)
@@ -20082,6 +19136,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20436,6 +19499,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50ffbad3-c494-43f7-90e4-a0074d2354ea")
 		)
@@ -20771,6 +19843,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 327.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f3495c71-b77a-43ad-8618-621afab165be")
 		)
@@ -21102,6 +20183,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21511,6 +20601,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 236.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fcc76c3-6375-4e73-be17-f820151cfe69")
 		)
@@ -21917,6 +21016,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 421.64 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e758275-33ee-42f7-8288-c9e9902b49a1")
 		)
@@ -22251,6 +21359,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 416.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5fbc7694-e4e8-4116-8a7f-36f05c3fd003")
 		)
@@ -22267,341 +21384,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
 					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "30-altium-import:root_3_RESISTOR_Dup5")
-		(at 429.26 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60aec681-d7b9-4c66-b2d4-fcef2dacdbbe")
-		(property "Reference" "R668"
-			(at 414.02 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0E"
-			(at 431.8 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 429.26 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0E 1/16W JUMPER 0402"
-			(at 429.26 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110010080019-R"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "PB_BUGBASE"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "VISHAY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "CRCW04020000Z0ED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "541-0.0JCT-ND"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}CRCW0603.PDF"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MUDDU/190810"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/201216"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b38514e-e4f2-42bb-bb65-29ad7253f087")
-		)
-		(pin "2"
-			(uuid "a32c4724-9c76-4cc3-a813-3d3a624151d8")
-		)
-		(instances
-			(project ""
-				(path "/60f69d6a-14cd-425a-9740-a205e5b7b16f"
-					(reference "R668")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
-					(reference "R668")
 					(unit 1)
 				)
 			)
@@ -22908,6 +21690,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 48.26 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23249,6 +22040,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 299.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7852de51-2e6f-4cfb-9a8c-f2bdf9d50927")
 		)
@@ -23580,6 +22380,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23915,6 +22724,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 467.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25574,6 +24392,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 403.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6d1b0d4-38b1-4086-aa19-1ea8b5307cd3")
 		)
@@ -25979,6 +24806,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad3c7607-00b9-450b-8518-6a931c5dfb23")
 		)
@@ -26311,6 +25147,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 312.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26647,6 +25492,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27053,6 +25907,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd659246-aaa9-4968-93b7-babf77ea43be")
 		)
@@ -27435,6 +26298,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 210.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27959,6 +26831,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 86.36 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16b45443-2883-4902-84a3-6018954becf8")
 		)
@@ -28384,6 +27265,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 73.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ecd96f3-3e55-4c6f-8500-afe8f6169799")
 		)
@@ -28720,6 +27610,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 304.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a79bc7e-bb19-458a-9fb3-a2c4ca14b211")
 		)
@@ -29052,6 +27951,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 421.64 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b37199c7-1d56-4314-9bfc-a2a24a9b5bd9")
 		)
@@ -29145,77 +28053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "30-altium-import:VMAIN_BAR")
-		(at 162.56 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "913e7c1e-e048-42f6-816b-48e9d39a611d")
-		(property "Reference" "#PWR?"
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VMAIN"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "bf296b78-2125-462a-894d-14f7b135c93b")
-		)
-		(instances
-			(project ""
-				(path "/60f69d6a-14cd-425a-9740-a205e5b7b16f"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
-					(reference "#PWR01232")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "30-altium-import:VCC_3V3_SYS_BAR")
 		(at 58.42 71.12 180)
 		(unit 1)
@@ -29281,341 +28118,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
 					(reference "#PWR01243")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "30-altium-import:root_3_RESISTOR_Dup5")
-		(at 429.26 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98139c20-1d87-49e4-aa27-5d549a96d5d2")
-		(property "Reference" "R661"
-			(at 414.02 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0E"
-			(at 431.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 429.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0E 1/16W JUMPER 0402"
-			(at 429.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110010080019-R"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "PB_BUGBASE"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "VISHAY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "CRCW04020000Z0ED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "541-0.0JCT-ND"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}CRCW0603.PDF"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MUDDU/190810"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/201216"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea38892f-6b8d-4f62-af9b-e0edfc01253d")
-		)
-		(pin "2"
-			(uuid "95c41ee8-449b-4ec1-8d8a-37c552e112be")
-		)
-		(instances
-			(project ""
-				(path "/60f69d6a-14cd-425a-9740-a205e5b7b16f"
-					(reference "R661")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
-					(reference "R661")
 					(unit 1)
 				)
 			)
@@ -30006,6 +28508,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 325.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e409a99-56e5-43d9-946c-5ad8a29ba916")
 		)
@@ -30341,6 +28852,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 304.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a699bf55-7239-4f55-85e6-935ef7bf5ee3")
 		)
@@ -30673,6 +29193,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 337.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31101,6 +29630,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f83c0944-30e9-457d-8442-36fad54bcbd8")
 		)
@@ -31504,6 +30042,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 71.12 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31913,6 +30460,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 314.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "266a8188-9d3c-41f5-8c9c-d399c4c690c4")
 		)
@@ -32319,6 +30875,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 383.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5de157c-c4d3-4333-a15c-0d08fbb57c38")
 		)
@@ -32722,6 +31287,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 337.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -33202,6 +31776,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 78.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e419d7fa-6ab2-48ca-b073-7cb5b1aa6345")
 		)
@@ -33218,341 +31801,6 @@
 			(project ""
 				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
 					(reference "R430")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "30-altium-import:root_3_RESISTOR_Dup5")
-		(at 429.26 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e81dcbef-3e18-4290-bda2-7b671f3f3824")
-		(property "Reference" "R662"
-			(at 414.02 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0E"
-			(at 431.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RES0402_0-5"
-			(at 429.26 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0E 1/16W JUMPER 0402"
-			(at 429.26 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}PCB_FOOTPRINT~{S}Altium_Footprint_Lib.PcbLib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY PATH" "Y~{:}MIS_DATABAS~{E}Librar~{y}ALTIUM_TOO~{L}SCHEMATICS_PART~{S}MS_DISCRETE_Library.schlib"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT REF" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIBRARY REF" "RESISTOR"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MECHANICAL 3D STEP FILE" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOM_DUTY" "15%"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CUSTOMS_HS_CODE" "85332119"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" ""
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHKD/DATE" "VASANTHA/201216"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CRTD /DATE" "MUDDU/190810"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "Y~{:}MIS_DATABAS~{E}DATASHEET~{S}RESISTOR~{S}CRCW0603.PDF"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55癈+155癈"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.65mg"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.40MM"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_PART_NUMBER" "541-0.0JCT-ND"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR_NAME" "DIGIKEY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WATTAGE" "1/16W"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "NA"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "RESISTOR~{S}FIXED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_PART_NUMBER" "CRCW04020000Z0ED"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "VISHAY"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROJECT" "PB_BUGBASE"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MISTRAL PART NO" "110010080019-R"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" "RES0402_0-5"
-			(at 7.62 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5649eed9-ff14-4d81-ab5a-bab9f8d866ef")
-		)
-		(pin "1"
-			(uuid "36b2bd2a-73d6-44f4-8c4d-8e2b9589d68d")
-		)
-		(instances
-			(project ""
-				(path "/60f69d6a-14cd-425a-9740-a205e5b7b16f"
-					(reference "R662")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d798ab61-bfb1-4e3e-a919-55e6a99857b1/397b3b10-a226-4c89-8489-ecb1197e2a45"
-					(reference "R662")
 					(unit 1)
 				)
 			)
@@ -33941,6 +32189,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -34415,6 +32672,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

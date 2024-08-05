@@ -23156,8 +23156,8 @@
 	)
 	(text_box "D-Note :-\nMCU_OSC0  has been validated only with a 25 MHz clock\nsource, so that is the only frequency supported.\nThe datasheet shows MCU_OSC0 not starting until after\nthe core voltage because there are some cases where\nthe oscillator may not start until VDD_CORE is valid.\nIn most cases it will start as early as VDDS_OSC0, but\nthis may not always be the case.\nThis diagram in the datasheet is showing the maximum\nstart-up time, which must include the case where the\ndelay is based on VDD_CORE being valid."
 		(exclude_from_sim no)
-		(at 109.474 302.768 0)
-		(size -96.774 -33.528)
+		(at 12.7 269.24 0)
+		(size 96.774 33.528)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -25303,6 +25303,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 490.22 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d8ca247-a459-4a6c-b158-f7d121d4f810")
 		)
@@ -25634,6 +25643,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25991,6 +26009,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 457.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0b16a1f-5cb1-4bc2-a4dc-7b44d14bb3b0")
 		)
@@ -26323,6 +26350,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26733,6 +26769,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 269.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a684ce6-76a6-4500-81c9-263a058170f5")
 		)
@@ -27022,6 +27067,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 114.3 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27576,6 +27630,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 309.88 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f19f3478-ad27-4759-ae87-f49c3f7244e8")
 		)
@@ -27912,6 +27975,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 281.94 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96e226c7-88c3-4203-a290-6b1880f816ce")
 		)
@@ -28225,6 +28297,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 439.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28645,6 +28726,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 190.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c42adad-dd96-4d99-8441-49fdfe3dc9c4")
 		)
@@ -28977,6 +29067,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 454.66 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29315,6 +29414,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 114.3 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5800fdc3-ef8e-4497-b049-9829edd36a1d")
 		)
@@ -29647,6 +29755,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29985,6 +30102,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 30.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7304ca4-c836-41b4-8d61-b880f5fcbdec")
 		)
@@ -30318,6 +30444,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32068,6 +32203,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47ee7449-67a3-4f52-a722-038a53421d86")
 		)
@@ -32419,6 +32563,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 203.2 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32898,6 +33051,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 91.44 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2eb3fad1-b2b0-4929-a1b9-0f240d3d2f32")
 		)
@@ -33239,6 +33401,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 134.62 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3858eaf3-703e-4d77-a8f4-5504645b6b89")
 		)
@@ -33570,6 +33741,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -33908,6 +34088,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 7.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a666a29-a949-468a-9da4-19ab3ca8ffba")
 		)
@@ -34241,6 +34430,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 269.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -34643,6 +34841,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 71.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -35049,6 +35256,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 472.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -35529,6 +35745,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 114.3 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d706886-5b07-490c-bd8d-3d082a130df5")
 		)
@@ -35861,6 +36086,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 269.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -36409,6 +36643,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 269.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63287b30-2d84-4bde-890c-3f25f9ad069a")
 		)
@@ -36738,6 +36981,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 414.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -37076,6 +37328,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 317.5 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab37ac5f-9afa-47ac-a183-d91b53bdcbec")
 		)
@@ -37378,6 +37639,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 248.92 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -37722,6 +37992,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -38128,6 +38407,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 327.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -39787,6 +40075,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 248.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5ae210e-6861-4ca7-a35c-71a55bf676c0")
 		)
@@ -40259,6 +40556,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 424.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c135ca5-1362-4f11-a5e8-6400ab265004")
 		)
@@ -40591,6 +40897,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 114.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -40997,6 +41312,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -41407,6 +41731,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 274.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7adb38b8-644f-470f-8026-a5d7fe387ed7")
 		)
@@ -41807,6 +42140,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 269.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -42285,6 +42627,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 274.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0aba5e6-2e40-44fa-abe6-38712313813b")
 		)
@@ -42613,6 +42964,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 71.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -43018,6 +43378,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -43446,6 +43815,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 309.88 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b15cef7e-879b-46f6-b895-2e0ccab7b014")
 		)
@@ -43781,6 +44159,15 @@
 				(hide yes)
 			)
 		)
+		(property "PB-FREE" ""
+			(at 20.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adec8b24-30c1-4854-8cf8-1065fd8c47b9")
 		)
@@ -44113,6 +44500,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PB-FREE" ""
+			(at 177.8 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
